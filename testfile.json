@@ -1,0 +1,14 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+  "parameters": {
+    "tagValues": {
+      "type": "object",
+      "defaultValue": {
+        "Environment": "Dev",
+        "Service": "BusinessApps",
+        "Management": "George",
+        "metadata": {
+          "description": "The environment describes the lowest level of activity e.g mixed development and test environemnts will be 'Development'."
+        }
+     
